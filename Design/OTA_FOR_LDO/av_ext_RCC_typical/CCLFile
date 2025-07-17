@@ -1,0 +1,72 @@
+#
+# OPTION COMMAND FILE created byCadence Quantus Extraction Version 23.1.1-p051 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "VSS"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing "auto" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "LAYOUT" \
+	 -parasitic_blocking_device_cells_file "/data/tsmc/28HPCPMMWAVE/PDK/1.8.2.3a1/9m/../../../Calibre/qci/1.0_3j/9m/hcell_qci" \
+	 -split_via_by_unit_area false
+filter_cap \
+	 -exclude_floating_nets true \
+	 -exclude_floating_nets_limit 50000
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type calibre \
+	 -design_cell_name "OTA_FOR_LDO layout LDO" \
+	 -device_properties_file "/project/tsmc28mmwave/users/yaishorf/ws/lvsForQrc/OTA_FOR_LDO/query_output/OTA_FOR_LDO.pdsp" \
+	 -device_property_value 7 \
+	 -directory_name "/project/tsmc28mmwave/users/yaishorf/ws/lvsForQrc/OTA_FOR_LDO/query_output" \
+	 -format "DFII" \
+	 -instance_property_value 6 \
+	 -layer_map_file "/project/tsmc28mmwave/users/yaishorf/ws/lvsForQrc/OTA_FOR_LDO/query_output/OTA_FOR_LDO.gds.map" \
+	 -library_definitions_file "/project/tsmc28mmwave/users/yaishorf/ws/cds.lib" \
+	 -net_property_value 5 \
+	 -run_name "OTA_FOR_LDO"
+log_file \
+	 -file_name "/project/tsmc28mmwave/users/yaishorf/ws/lvsForQrc/OTA_FOR_LDO/query_output/qrc.OTA_FOR_LDO.log"
+output_db -type extracted_view \
+	 -add_explicit_vias true \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -cdl_out_map_directory \
+		"/project/tsmc28mmwave/users/yaishorf/ws/lvsForQrc/OTA_FOR_LDO" \
+	 -device_finger_delimiter "@" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_parasitic_res_width true \
+	 -include_res_model "false" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -transfer_net_expression true \
+	 -view_name "av_ext_RCC_typical"
+output_setup \
+	 -directory_name "/project/tsmc28mmwave/users/yaishorf/ws/lvsForQrc/OTA_FOR_LDO/query_output" \
+	 -temporary_directory_name "OTA_FOR_LDO"
+process_technology \
+	 -technology_corner \
+		"default" \
+	 -technology_library_file "/project/tsmc28mmwave/users/yaishorf/ws/pvtech.lib" \
+	 -technology_name "tsmcN28" \
+	 -temperature \
+		"25"
+substrate_connection \
+	 -remove_contact layers none nets none \
+	 -substrate_stamping_off true
+
+

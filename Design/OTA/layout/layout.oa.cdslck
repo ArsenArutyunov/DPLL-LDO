@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      yaishorf
+HostName                       micron3.eng.tau.ac.il
+ProcessIdentifier              1425830
+ProcessCreationTime_UTC        1751555502
+ProcessCreationTime_Readable   Thu Jul  3 18:11:42 2025 IDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /project/tsmc28mmwave/users/yaishorf/ws/LDO_FOR_DPLL/OTA/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Jul  3 21:16:18 2025 IDT

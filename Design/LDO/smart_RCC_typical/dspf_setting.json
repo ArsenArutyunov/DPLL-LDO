@@ -1,0 +1,5 @@
+{
+"DSPFSetup_LCV_DataMap" : {
+"termOrder": ["VDD","Vout_LDO","VSS"]
+}
+}
