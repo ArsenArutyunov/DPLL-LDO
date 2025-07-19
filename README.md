@@ -21,16 +21,16 @@ To ensure low jitter and phase noise, the DPLL requires a regulated 0.9V output 
 |------------------------|---------------|
 | Output Voltage (Vout)   | 0.9 V         |
 | Reference Voltage (Vref)| 0.72 V        |
-| Max Load Current (Iload)| 60 mA         |
-| Line Regulation         | 0.001         |
+| Max Load Current (Iload)| 55.5 mA         |
+| Line Regulation         | 0.0009         |
 
 
 ## Figures
 
 | Description                          | Image Preview                   |
 |--------------------------------------|---------------------------------|
-| **LDO Block Diagram**                | ![LDO Block](./Diagrams/Basic-Structure-of-an-LDO-circuit4.png)   |
-| **Layout Screenshot**               | ![Layout](./Lay-Out/lay_out1.png)         |
+| **LDO Block Diagram**                | ![LDO Block](./Figures/CircuitDiagrams/LDO-block-diagram.png)   |
+| **Layout Screenshot**               | ![Layout](./Figures/LayoutScreenshots/Full-Layout.png)         |
 | **Line Regulation vs. VDD**         | ![Line Regulation](./Graphs/Vout.png) |
 | **Load Regulation vs. Iload**       | ![Load Regulation](./Graphs/Load.png) |
 
