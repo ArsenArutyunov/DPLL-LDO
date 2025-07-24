@@ -41,5 +41,7 @@ Advisor: Tal Elazar
 Project No: 24-1-1-3097
 
 For a detailed visual overview of the design, see the [project poster](./Deliverables/Poster.pdf).
+
 For a detailed presentation of the project, see the [project presentation](./Deliverables/Final-Presentation.pdf).
+
 For a detailed summary of the project, see the [project book](./Deliverables/Project-Book.pdf).
