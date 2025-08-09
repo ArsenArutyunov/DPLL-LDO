@@ -24,6 +24,16 @@ To ensure low jitter and phase noise, the DPLL requires a regulated 0.9V output 
 | Max Load Current (Iload)| 55.5 mA         |
 | Line Regulation         | 0.0009         |
 
+## Project Documentation
+
+For a brief visual overview of the design, see the [project poster](./Deliverables/Poster.pdf).
+
+For a detailed presentation of the project, see the [project presentation](./Deliverables/Final-Presentation.pptx).
+
+For a succinct and focused project book, refer to the [concise project book](./Deliverables/Concise-Project-Book.pdf).
+
+For the complete and thorough project book, refer to the [project book](./Deliverables/Project-Book.pdf).
+
 
 ## Figures
 
@@ -35,44 +45,29 @@ To ensure low jitter and phase noise, the DPLL requires a regulated 0.9V output 
 | **Load Regulation**       | ![Load Regulation](./Figures/SimulationGraphs/LDO/LDO-Load-Regulation.png) |
 
 
-Repository Structure
+## Repository Structure
 The repository is organized into the following main directories:
 
-Weekly Presentation/
-This folder documents the project’s weekly progress. It is divided into two subfolders:
+**Weekly Presentation/** - This folder documents the project’s weekly progress. It is divided into two subfolders:
+- SemesterA/ – Contains presentation materials from the first semester.
+- SemesterB/ – Contains presentation materials from the second semester.
 
-SemesterA/ – Contains presentation materials from the first semester.
+**Deliverables/** - This folder includes all formal submission items:
+- The final project book
+- The final presentation
+- The project poster
+- The mid-project presentation
+- The initial workplan
 
-SemesterB/ – Contains presentation materials from the second semester.
+**Figures/** - This folder contains visual materials, such as:
+- Circuit diagrams
+- Simulation graphs
+- Layout screenshots
+- Device sizes tables
+- Results tables
 
-Deliverables/
-This folder includes all formal submission items:
+**Design/** - This directory contains the full Cadence design environment for the Low Dropout Regulator (LDO), including schematics, layouts, testbenches, and simulation setups.
 
-The final project book
-
-The final presentation
-
-The project poster
-
-The mid-project presentation
-
-The initial workplan
-
-Figures/
-This folder contains visual materials, such as:
-
-Circuit diagrams
-
-Simulation graphs
-
-Layout screenshots
-
-Device sizes tables
-
-Results tables
-
-Design/
-This directory contains the full Cadence design environment for the Low Dropout Regulator (LDO), including schematics, layouts, testbenches, and simulation setups.
 
 
 
@@ -81,12 +76,5 @@ Or Fahima, Arsen Arutyunov
 Advisor: Tal Elazar  
 Project No: 24-1-1-3097
 
-For a detailed visual overview of the design, see the [project poster](./Deliverables/Poster.pdf).
-
-For a detailed presentation of the project, see the [project presentation](./Deliverables/Final-Presentation.pptx).
-
-For a succinct and focused project book, refer to the [concise project book](./Deliverables/Concise-Project-Book.pdf).
-
-For the complete and thorough project book, refer to the [project book](./Deliverables/Project-Book.pdf).
 
 
