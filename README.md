@@ -22,7 +22,9 @@ To ensure low jitter and phase noise, the DPLL requires a regulated 0.9V output 
 | Output Voltage (Vout)   | 0.9 V         |
 | Reference Voltage (Vref)| 0.72 V        |
 | Max Load Current (Iload)| 55.5 mA         |
-| Line Regulation         | 0.0009         |
+| Line Regulation         | 0.0009 V/V        |
+| Load Regulation         | 0.032 mV/mA        |
+| Temperature Coefficient         | 6.4 μV/°C        |
 
 ## Project Documentation
 
